@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Spendura Blue Theme Colors -->
+    <color name="background_primary">#E1F0F7</color> <!-- light blue-gray -->
+    <color name="background_secondary">#5B9BD5</color> <!-- soft blue -->
+    <color name="accent_primary">#2F65A7</color> <!-- medium dark blue -->
+    <color name="accent_secondary">#163A5F</color> <!-- deep navy -->
+
+    <!-- Additional Shades -->
+    <color name="accent_primary_light">#5B9BD5</color> <!-- reused -->
+    <color name="accent_secondary_light">#2F65A7</color> <!-- reused -->
+    <color name="background_secondary_light">#5B9BD5</color> <!-- reused -->
+    <color name="text_primary">#163A5F</color> <!-- reused -->
+    <color name="text_secondary">#2F65A7</color> <!-- reused -->
+    <color name="error_color">#FF5252</color> <!-- same red for errors -->
+</resources>

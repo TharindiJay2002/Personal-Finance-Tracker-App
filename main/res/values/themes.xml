@@ -1,0 +1,70 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Base.Theme.TrackMyFunds" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Color Scheme -->
+    <item name="android:windowBackground">@color/background_primary</item>
+    <item name="colorPrimary">@color/accent_primary</item>
+    <item name="colorPrimaryVariant">@color/accent_primary_light</item>
+    <item name="colorSecondary">@color/accent_secondary</item>
+    <item name="colorSecondaryVariant">@color/accent_secondary_light</item>
+    <item name="colorSurface">@color/background_secondary</item>
+    <item name="colorError">@color/error_color</item>
+
+    <!-- System Bars -->
+    <item name="android:statusBarColor">@color/accent_secondary</item>
+    <item name="android:navigationBarColor">@color/background_primary</item>
+
+    <!-- Text Colors -->
+    <item name="android:textColorPrimary">@color/text_primary</item>
+    <item name="android:textColorSecondary">@color/text_secondary</item>
+
+    <!-- Material Components Customization -->
+    <item name="textInputStyle">@style/Widget.VaultVision.TextInputLayout</item>
+    <item name="materialButtonStyle">@style/Widget.VaultVision.Button</item>
+    <item name="materialCardViewStyle">@style/Widget.VaultVision.CardView</item>
+</style>
+
+<style name="Theme.TrackMyFunds" parent="Base.Theme.TrackMyFunds" />
+
+<!-- Custom TextInputLayout Style -->
+<style name="Widget.VaultVision.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <item name="boxStrokeColor">@color/accent_primary</item>
+    <item name="hintTextColor">@color/accent_secondary</item>
+    <item name="android:textColorHint">@color/text_secondary</item>
+    <item name="errorTextColor">@color/error_color</item>
+    <item name="helperTextTextColor">@color/text_secondary</item>
+    <item name="startIconTint">@color/accent_secondary</item>
+    <item name="endIconTint">@color/accent_secondary</item>
+</style>
+
+<!-- Custom Button Style -->
+<style name="Widget.VaultVision.Button" parent="Widget.MaterialComponents.Button">
+    <item name="backgroundTint">@color/accent_secondary</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="rippleColor">@color/accent_primary</item>
+    <item name="cornerRadius">8dp</item>
+</style>
+
+<!-- Custom CardView Style -->
+<style name="Widget.VaultVision.CardView" parent="Widget.MaterialComponents.CardView">
+    <item name="cardBackgroundColor">@color/background_secondary</item>
+    <item name="cardElevation">4dp</item>
+    <item name="cornerRadius">16dp</item>
+    <item name="strokeColor">@color/accent_primary</item>
+    <item name="strokeWidth">1dp</item>
+</style>
+
+<!-- Progress Indicator Style -->
+<style name="Widget.VaultVision.ProgressIndicator" parent="Widget.MaterialComponents.LinearProgressIndicator">
+    <item name="trackColor">@color/background_secondary_light</item>
+    <item name="indicatorColor">@color/accent_secondary</item>
+</style>
+
+<style name="Theme.TrackMyFunds.Splash" parent="Theme.TrackMyFunds">
+    <item name="android:windowBackground">@color/background_primary</item>
+    <item name="android:statusBarColor">@color/background_primary</item>
+    <item name="android:navigationBarColor">@color/background_primary</item>
+    <item name="android:windowLightStatusBar">true</item>
+</style>
+</resources>
